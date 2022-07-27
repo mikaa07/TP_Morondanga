@@ -1,0 +1,168 @@
+/*cambia fondos de fixture-nosotros-noticas*/
+
+body{
+    background-attachment: scroll;
+    background-color: rgb(207, 27, 87);
+    background-size: cover;
+    }
+    
+    
+    
+    
+    
+    /*cambia estilo de la botonera*/
+    
+    .nav-item{
+        display: inline-table;
+        color:rgb(13, 12, 94);
+        text-transform: uppercase;
+        padding: 13px;
+        font-weight: bold;
+    }
+    
+    
+    
+    /*CAMBIA LOS COLORES DE LOS PARRAFOS*/
+    
+    p{
+        color:black;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    
+    
+    /*CAMBIA COLOR AL TITULO SECUNDARIO*/
+    
+    h2{
+        color: rgb(212, 6, 6);
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    
+    
+    /*CAMBIA EL COLOR AL TITULO PRINCIPAL*/
+    
+    h1{
+        color:  red;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    
+    
+    /*CAMBIA EL FORMATO DE CADA NOTICIA*/
+    
+    .noticia{
+        float: left;
+        width: 45%;
+        padding-bottom: 10px;
+        margin-left:3%;
+        margin-top:3%;
+        background-color:white;
+        border-style: solid;
+        border-color:rgb(243,7, 86);
+    }
+    
+    
+    
+    .fechas{
+        float:left;
+        width:45%;
+        padding-bottom:10px;
+        margin-left:3%;
+        margin-top:3%;
+        background-color:palevioletred;
+        border: 3px solid red;
+        border-color: red;
+        color: black;
+    
+    }
+    
+    
+    
+    .campeonato{
+        font-weight: bold;
+        font-size: 30px;
+        text-shadow: 2px 2px #fcf9f9;
+        float:left;
+        width: 100%;
+    }
+    
+    /*PARA QUE LOS EQUIPOS APAREZCAN EN NEGRITA*/
+    
+    .equipos{
+        font-weight: bold;
+    
+    
+    }
+    
+    table{
+        margin:auto;
+        width:350px;
+    }
+    
+    td{
+        border: 3px solid red;
+        text-align: center;
+        font-size: 24px;
+        background-color:  pink;
+    }
+    
+    
+    /*CAMBIA EL FONDO DE LA BOTONERA*/
+    
+    .nav-link{
+        color:  black;
+        background-color: rgb(245, 8, 87);
+        border: red;
+    }
+    
+    
+    
+    
+    h1 .nombre {
+        text-align: left;
+    }
+    
+    
+    
+    .jugador{
+        float: block;
+        width: 43%;
+        padding-bottom: 3px;
+        margin-left:3%;
+        margin-top:3%;
+        background-color:white;
+        border-style: solid;
+        border-color:rgb(243,7, 86);
+    }
+
+    
+    /*CAMBIA COSAS DEL HOME*/
+    
+    .home{
+        background-image:url(../imagen/imagen1.jpg);
+        background-attachment: fixed;
+        background-color:  palevioletred;
+        background-size: scroll; 
+    
+    }
+    
+    .historia{
+        font-size:30px;
+        font-family: 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px #fcf9f9;
+        color: rgb(245, 8, 87);
+        float: left; 
+        width: 300px;
+    }
+    
+    .encuesta{
+        float: left;
+        width: 79%;
+        background-color:pink;
+    
+    }
+    

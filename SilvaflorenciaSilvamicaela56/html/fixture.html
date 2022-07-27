@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fixture-Morondanga</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/estilos1.css">
+</head>
+<body>
+    <div class="encabezado">
+        <nav class="container-fluid">
+            <ul class="nav row">
+                <li class="nav-item col-sm-3 col-6">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item col-sm-3 col-6">
+                    <a class="nav-link active" href="fixture.html">FIXTURE</a>
+                </li>
+                <li class="nav-item col-sm-3 col-6">
+                    <a class="nav-link" href="noticias.html">NOTICIAS</a>
+                </li>
+                <li class="nav-item col-sm-3 col-6">
+                    <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="fechas">
+        <h1>Copa Cosa de Serranas</h1>
+        <table class="table table-responsive col-6 col-md-12">
+            <thead>
+                <tr>
+                    <th scope="col">equipo1</th>
+                    <th scope="col">vs</th>
+                    <th scope="col">equipo2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Morondanga</td>
+                    <td>Notankrotas</td>
+                </tr>
+                <tr>
+                    <td>Morondanga</td>
+                    <td>Cosmicas</td>
+                </tr>
+                <tr>
+                    <td>Morondanga</td>
+                    <td>Las Pibas</td>
+                </tr>
+            </tbody>
+        </table>
+        <label>equipo 1</label>
+        <input type="text"id="equipo1" value="equipo1ejemplo">
+        <label for="">equipo 2</label>
+        <input type="text"id="equipo2" value="equipo2ejemplo">
+        <button class="agregar">agregar</button>
+        <button class="agregar3">agregarx3</button>
+        <button class="vaciar">Vaciar</button>
+        
+    <div>
+      <table class="nuevatabla" id="tabla">
+          <thead>
+              <tr>
+                  <th>equipo1</th>
+                  <th>equipo2</th> 
+                  <th>Editar</th>
+                  <th>Borrar</th>
+              </tr>
+          </thead>
+          <tbody class="tabla">
+
+          </tbody>
+      </table>
+
+      <label>Filtro por equipo visitante</label>
+      <input type="text"class="equipofiltro" value="">
+      <button class="filtro">Filtrar</button>
+     
+    </div>
+    </section>
+    <script src="validar.js"></script>
+
+</body>
+</html>
+    <script src="../js/agr.js"></script>
+
+</body>
+</html>
